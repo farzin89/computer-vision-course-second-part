@@ -26,5 +26,8 @@ matches = bf.match(des1,des2)
 #print(len(matches))
 matches = sorted(matches,key=lambda x:x.distance)
 reeses_matches = cv2.drawMatches(reeses,kp1,cereals,kp2,matches[:25],None,flags=2)
-display(reeses_matches)
-plt.show()
+#display(reeses_matches)
+#plt.show()
+
+
+ 

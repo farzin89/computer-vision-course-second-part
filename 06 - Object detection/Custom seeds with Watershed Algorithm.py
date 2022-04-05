@@ -72,7 +72,7 @@ while True:
 
         segments = np.zeros(road.shape)
         for color_ind in range (n_markers):
-            # Coloring segments, numpy call 
+            # Coloring segments, numpy call
             segments[marker_image_copy == (color_ind)] = colors[color_ind]
 
 
